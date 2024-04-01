@@ -2,11 +2,11 @@
 
 <div class="me"></div>
 
-I will be giving a advanced programming course for the DHBW Heilbronn. I want to create a github oraginisation and repositories to hold all course material. I need to find a name for the organisation. I would like it not to be explicit, not 'advanced programming course for the DHBW Heilbronn'. Do you have any suggestions ?
+→ I will be giving a advanced programming course for the DHBW Heilbronn. I want to create a github oraginisation and repositories to hold all course material. I need to find a name for the organisation. I would like it not to be explicit, not 'advanced programming course for the DHBW Heilbronn'. Do you have any suggestions ?
 
 <div class="chatGPT"></div>
 
-Sure, here are some suggestions for the name of your GitHub organization:
+← Sure, here are some suggestions for the name of your GitHub organization:
 
 * CodeCrafters
 * ByteGenius
@@ -23,11 +23,11 @@ Feel free to choose one that resonates with the essence and focus of your course
 
 <div class="me"></div>
 
-maybe a bit less enthousiastic, more cultural ?
+→ maybe a bit less enthousiastic, more cultural ?
 
 <div class="chatGPT"></div>
 
-Certainly, here are some more culturally oriented suggestions for your GitHub organization name:
+← Certainly, here are some more culturally oriented suggestions for your GitHub organization name:
 
 * CodeCultura
 * TechTribune
@@ -44,28 +44,28 @@ These names evoke a sense of cultural and intellectual heritage while still main
 
 <div class="me"></div>
 
-Athenaeum is noice, waht does it means ?
+→ Athenaeum is nice, what does it means ?
 
 <div class="chatGPT"></div>
 
-"Athenaeum" refers to a place or institution devoted to the promotion of literary or scientific learning. It originated from the name of the temple of the goddess Athena in ancient Greece, which was often associated with scholarly pursuits and knowledge. In modern usage, "Athenaeum" is often used to denote libraries, literary societies, or cultural centers that focus on intellectual activities and education.
+← "Athenaeum" refers to a place or institution devoted to the promotion of literary or scientific learning. It originated from the name of the temple of the goddess Athena in ancient Greece, which was often associated with scholarly pursuits and knowledge. In modern usage, "Athenaeum" is often used to denote libraries, literary societies, or cultural centers that focus on intellectual activities and education.
 
 <div class="me"></div>
 
-It's a deal !
+→ It's a deal !
 
 <div class="chatGPT"></div>
 
-Excellent choice! "Athenaeum" has a strong cultural connotation and reflects the intellectual nature of your programming course. Best of luck with your GitHub organization and your advanced programming course at DHBW Heilbronn! If you need any further assistance or advice, feel free to ask.
+← Excellent choice! "Athenaeum" has a strong cultural connotation and reflects the intellectual nature of your programming course. Best of luck with your GitHub organization and your advanced programming course at DHBW Heilbronn! If you need any further assistance or advice, feel free to ask.
 
 
 <div class="me"></div>
 
-How does Atheneum relates with Aletheia ? Or does it relate at all ?
+→ How does Atheneum relates with Aletheia ? Or does it relate at all ?
 
 <div class="chatGPT"></div>
 
-The relationship between "Athenaeum" and "Aletheia" lies in their historical and philosophical connections rather than direct linguistic or etymological ones.
+← The relationship between "Athenaeum" and "Aletheia" lies in their historical and philosophical connections rather than direct linguistic or etymological ones.
 
 1. Athenaeum: As mentioned earlier, "Athenaeum" refers to places or institutions of learning, often associated with the pursuit of knowledge, literature, and culture. It has its roots in ancient Greek culture and the worship of the goddess Athena, who was considered the patroness of wisdom, crafts, and strategic warfare.
 
@@ -75,11 +75,11 @@ While "Athenaeum" and "Aletheia" both have roots in ancient Greek culture and in
 
 <div class="me"></div>
 
-last thing : where do I create an organisation on github ?
+→ last thing : where do I create an organisation on github ?
 
 <div class="chatGPT"></div>
 
-To create an organization on GitHub, follow these steps:
+← To create an organization on GitHub, follow these steps:
 
 1. Sign in to your GitHub account.
 1. In the upper-right corner of any page, click on your profile photo, then click on "Your organizations."
@@ -92,13 +92,13 @@ To create an organization on GitHub, follow these steps:
 
 <div class="me"></div>
 
-"The name 'athenaeum' is already taken."
+→ "The name 'athenaeum' is already taken."
 
 blistering barnacles!
 
 <div class="chatGPT"></div>
 
-If the name "Athenaeum" is already taken on GitHub, you'll need to come up with an alternative name for your organization. You might consider adding a unique identifier or modifying the name slightly to make it distinct. Here are some variations or alternatives you could consider:
+← If the name "Athenaeum" is already taken on GitHub, you'll need to come up with an alternative name for your organization. You might consider adding a unique identifier or modifying the name slightly to make it distinct. Here are some variations or alternatives you could consider:
 
 1. AthenaeumAcademy
 1. AthenaeumHub
@@ -115,19 +115,19 @@ Choose one that best fits your organization and the theme of your advanced progr
 
 <div class="me"></div>
 
-athenaeum2 ?
+→ athenaeum2 ?
 
 <div class="chatGPT"></div>
 
-Using "Athenaeum2" could be a solution if you're looking for a straightforward way to differentiate your organization. While it may not be the most creative option, it effectively distinguishes your organization from the one already using the name "Athenaeum" on GitHub. Just make sure it aligns with your preferences and the image you want to convey for your programming course. If "Athenaeum2" suits your needs, go ahead and use it!
+← Using "Athenaeum2" could be a solution if you're looking for a straightforward way to differentiate your organization. While it may not be the most creative option, it effectively distinguishes your organization from the one already using the name "Athenaeum" on GitHub. Just make sure it aligns with your preferences and the image you want to convey for your programming course. If "Athenaeum2" suits your needs, go ahead and use it!
 
 <div class="me"></div>
 
-ok, do you have a more creative suffix than 2, but not with a clear neaming, please.
+→ ok, do you have a more creative suffix than 2, but not with a clear neaming, please.
 
 <div class="chatGPT"></div>
 
-Certainly! Here are some more creative suffix options for your organization name:
+← Certainly! Here are some more creative suffix options for your organization name:
 
 1. AthenaeumNexus
 1. AthenaeumForge
@@ -144,19 +144,19 @@ These suffixes add a unique and somewhat mysterious touch to your organization n
 
 <div class="me"></div>
 
-atheneum-brew
+→ atheneum-brew
 
 <div class="chatGPT"></div>
 
-"atheneum-brew" is an interesting and creative choice! It adds a unique flair to your organization name, evoking imagery of innovation and creation, akin to the craft of brewing. It's distinctive and memorable, making it a great option for your GitHub organization. If "atheneum-brew" aligns with your vision for your programming course and organization, go ahead and use it!
+← "atheneum-brew" is an interesting and creative choice! It adds a unique flair to your organization name, evoking imagery of innovation and creation, akin to the craft of brewing. It's distinctive and memorable, making it a great option for your GitHub organization. If "atheneum-brew" aligns with your vision for your programming course and organization, go ahead and use it!
 
 <div class="me"></div>
 
-what does brew means ? I thought of miles davis 'bitches brew'.
+→ what does brew means ? I thought of miles davis 'bitches brew'.
 
 <div class="chatGPT"></div>
 
-"Brew" can indeed have multiple meanings depending on the context. In the case of "Bitches Brew" by Miles Davis, it refers to a specific album title and the concept of brewing something, often associated with the creation of music or art.
+← "Brew" can indeed have multiple meanings depending on the context. In the case of "Bitches Brew" by Miles Davis, it refers to a specific album title and the concept of brewing something, often associated with the creation of music or art.
 
 In a broader sense, "brew" can mean to make or prepare something, especially by combining various elements or ingredients. It's often used metaphorically to describe the process of creating something, whether it's music, art, ideas, or even code.
 
