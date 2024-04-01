@@ -2,7 +2,7 @@
 
 <div class="me"></div>
 
-→ I will be giving a advanced programming course for the DHBW Heilbronn. I want to create a github oraginisation and repositories to hold all course material. I need to find a name for the organisation. I would like it not to be explicit, not 'advanced programming course for the DHBW Heilbronn'. Do you have any suggestions ?
+→ I will be giving a advanced programming course for the DHBW Heilbronn. I want to create a github organization and repositories to hold all course material. I need to find a name for the organisation. I would like it not to be explicit, not 'advanced programming course for the DHBW Heilbronn'. Do you have any suggestions ?
 
 <div class="chatGPT"></div>
 
