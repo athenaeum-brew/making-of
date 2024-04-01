@@ -152,7 +152,7 @@ These suffixes add a unique and somewhat mysterious touch to your organization n
 
 <div class="me"></div>
 
-→ what does brew means ? I thought of miles davis 'bitches brew'.
+→ what does brew means ? I thought of Miles Davis' "Bitches Brew".
 
 <div class="chatGPT"></div>
 
