@@ -1,165 +1,56 @@
-# making-of
+# Advanced Programming (Programmierung II)
 
-<div class="me"></div>
+## Course Overview
 
-→ I will be giving a advanced programming course for the DHBW Heilbronn. I want to create a github oraginisation and repositories to hold all course material. I need to find a name for the organisation. I would like it not to be explicit, not 'advanced programming course for the DHBW Heilbronn'. Do you have any suggestions ?
+* Programming Language: Java
+* Duration: 30 modules, each lasting 45 minutes
+* Format: ~ Half lectures, half hands-on exercises in laboratory
+* Topics Covered: 6 + 2 ongoing topics running through all modules
 
-<div class="chatGPT"></div>
+## Main Topics:
 
-← Sure, here are some suggestions for the name of your GitHub organization:
+1. Java Programming Crash Course (Modules 1-5)
+1. Basic UI (Modules 6-10)
+1. Java Streams (Modules 11-12)
+1. Java Generics (Modules 13-14)
+1. Advanced UI (Modules 15-22)
+1. Asynchronous Programming (Modules 23-30)
 
-* CodeCrafters
-* ByteGenius
-* SyntaxSavvy
-* ProgMasters
-* DevForge
-* EliteCoders
-* TechPioneers
-* BitWizards
-* AlgorithmAlchemists
-* LogicLegends
+## Ongoing Topics:
 
-Feel free to choose one that resonates with the essence and focus of your course.
+1. Class Libraries and External Libraries
+1. Integration of ChatGPT as a Learning Tool
 
-<div class="me"></div>
+## Details
 
-→ maybe a bit less enthousiastic, more cultural ?
+#### Java Programming Crash Course
 
-<div class="chatGPT"></div>
+The Java Programming Crash Course provides a comprehensive introduction to the fundamental concepts of Java programming. It covers a wide range of topics, including Java syntax, data types, control structures, methods, and classes. Students will gain a solid understanding of the core building blocks of the Java language, enabling them to write simple to moderately complex programs. Additionally, the course delves into object-oriented programming (OOP) concepts such as inheritance, polymorphism, and encapsulation. Students will learn how to design and implement classes, utilize inheritance to create hierarchical relationships between classes, and leverage polymorphism for flexible and extensible code. Furthermore, the course explores exception handling techniques to manage errors and file input/output operations for reading from and writing to files. By the end of the course, students will have a strong foundation in Java programming, equipped with the skills necessary to tackle more advanced topics in Java development.
 
-← Certainly, here are some more culturally oriented suggestions for your GitHub organization name:
+#### Basic UI
 
-* CodeCultura
-* TechTribune
-* ByteBard
-* AlgorithmAthenaeum
-* LogicLoom
-* ProgramPapyrus
-* ByteBeacon
-* ScriptSage
-* TechTome
-* LogicLyceum
+The Basic UI module introduces students to the fundamental concepts of user interface (UI) development in Java. The module begins by covering basic UI concepts using the command-line interface (CLI), familiarizing students with textual input/output and simple interaction mechanisms. Students will learn how to accept user input and display information on the console. Building upon this foundation, the module then transitions to exploring JavaFX, a powerful UI toolkit for building rich desktop applications. Students will be introduced to the JavaFX framework and its components, learning how to create graphical user interfaces (GUIs) with interactive elements. Additionally, the module covers the integration of WebView, allowing students to embed web content within JavaFX applications. Through hands-on exercises and practical examples, students will gain valuable experience in designing and developing basic UIs using both command-line and JavaFX environments.
 
-These names evoke a sense of cultural and intellectual heritage while still maintaining relevance to programming and technology.
+#### Java Streams
 
-<div class="me"></div>
+Java Streams provide a powerful and expressive way to process collections of data in a functional style. Instead of manually iterating over collections, Streams allow developers to perform aggregate operations like filtering, mapping, and reducing in a concise and efficient manner. Streams promote functional programming paradigms, enabling developers to write cleaner, more maintainable code. They are particularly useful for handling large datasets or performing complex transformations on collections.
 
-→ Athenaeum is nice, what does it means ?
+#### Java Generics
 
-<div class="chatGPT"></div>
+Java Generics allow developers to write reusable and type-safe code by parameterizing types and methods. They enable the creation of classes, interfaces, and methods that operate on a range of data types while maintaining type safety at compile time. Generics improve code readability and maintainability by reducing the need for casting and providing compile-time type checking. They are commonly used in collections frameworks, algorithms, and APIs to create flexible and generic components that work with different data types seamlessly.
 
-← "Athenaeum" refers to a place or institution devoted to the promotion of literary or scientific learning. It originated from the name of the temple of the goddess Athena in ancient Greece, which was often associated with scholarly pursuits and knowledge. In modern usage, "Athenaeum" is often used to denote libraries, literary societies, or cultural centers that focus on intellectual activities and education.
+#### Advanced UI
 
-<div class="me"></div>
+[Cont'd]
 
-→ It's a deal !
+#### Asynchronous Programming
 
-<div class="chatGPT"></div>
+[Cont'd]
 
-← Excellent choice! "Athenaeum" has a strong cultural connotation and reflects the intellectual nature of your programming course. Best of luck with your GitHub organization and your advanced programming course at DHBW Heilbronn! If you need any further assistance or advice, feel free to ask.
+#### Class Libraries and External Libraries
 
+The Class Libraries and External Libraries module explores the utilization of pre-existing libraries to enhance Java applications. Students will learn how to leverage class libraries, which are collections of reusable classes and methods, to expedite development and add functionality to their programs. The module covers common Java class libraries, such as the Java Standard Library (java.lang, java.util, etc.), as well as third-party libraries available through repositories like Maven. Students will understand the importance of selecting appropriate libraries based on project requirements and learn best practices for integrating them into their codebase. Additionally, the module addresses concepts like dependency management, version control, and documentation retrieval for external libraries. Through hands-on exercises and real-world examples, students will gain proficiency in navigating, importing, and effectively utilizing class libraries and external dependencies in their Java projects.
 
-<div class="me"></div>
+#### Integration of ChatGPT as a Learning Tool
 
-→ How does Atheneum relates with Aletheia ? Or does it relate at all ?
-
-<div class="chatGPT"></div>
-
-← The relationship between "Athenaeum" and "Aletheia" lies in their historical and philosophical connections rather than direct linguistic or etymological ones.
-
-1. Athenaeum: As mentioned earlier, "Athenaeum" refers to places or institutions of learning, often associated with the pursuit of knowledge, literature, and culture. It has its roots in ancient Greek culture and the worship of the goddess Athena, who was considered the patroness of wisdom, crafts, and strategic warfare.
-
-2. Aletheia: On the other hand, "Aletheia" is a Greek word often translated as "truth" or "unconcealedness." It's a philosophical concept that pertains to the state of being truthful or the disclosure of truth. In ancient Greek philosophy, particularly in the works of thinkers like Parmenides and Plato, "Aletheia" is contrasted with "doxa" (opinion) and represents a deeper understanding of reality beyond mere appearances.
-
-While "Athenaeum" and "Aletheia" both have roots in ancient Greek culture and intellectual pursuits, they are not directly related linguistically. However, they share a common thread in their association with knowledge, learning, and the pursuit of truth, making them complementary concepts in the realm of intellectual exploration and education.
-
-<div class="me"></div>
-
-→ last thing : where do I create an organisation on github ?
-
-<div class="chatGPT"></div>
-
-← To create an organization on GitHub, follow these steps:
-
-1. Sign in to your GitHub account.
-1. In the upper-right corner of any page, click on your profile photo, then click on "Your organizations."
-1. On the Your organizations page, click on the "New organization" button.
-1. Fill in the necessary details for your organization, including the organization's name (in this case, "Athenaeum"), a unique username, email address, and description.
-1. Choose whether your organization should be public or private.
-1. Optionally, you can add people to your organization by entering their GitHub usernames or email addresses.
-1. Once you've filled in all the required information, click the "Create organization" button.
-1. That's it! You've successfully created an organization on GitHub. You can now start creating repositories and managing your course materials within the organization.
-
-<div class="me"></div>
-
-→ "The name 'athenaeum' is already taken."
-
-blistering barnacles!
-
-<div class="chatGPT"></div>
-
-← If the name "Athenaeum" is already taken on GitHub, you'll need to come up with an alternative name for your organization. You might consider adding a unique identifier or modifying the name slightly to make it distinct. Here are some variations or alternatives you could consider:
-
-1. AthenaeumAcademy
-1. AthenaeumHub
-1. AthenaeumTech
-1. AthenaeumWorks
-1. AthenaeumDev
-1. AthenaeumCoding
-1. AthenaeumSociety
-1. AthenaeumInstitute
-1. AthenaeumLabs
-1. AthenaeumCode
-
-Choose one that best fits your organization and the theme of your advanced programming course.
-
-<div class="me"></div>
-
-→ athenaeum2 ?
-
-<div class="chatGPT"></div>
-
-← Using "Athenaeum2" could be a solution if you're looking for a straightforward way to differentiate your organization. While it may not be the most creative option, it effectively distinguishes your organization from the one already using the name "Athenaeum" on GitHub. Just make sure it aligns with your preferences and the image you want to convey for your programming course. If "Athenaeum2" suits your needs, go ahead and use it!
-
-<div class="me"></div>
-
-→ ok, do you have a more creative suffix than 2, but not with a clear neaming, please.
-
-<div class="chatGPT"></div>
-
-← Certainly! Here are some more creative suffix options for your organization name:
-
-1. AthenaeumNexus
-1. AthenaeumForge
-1. AthenaeumEcho
-1. AthenaeumQuasar
-1. AthenaeumCatalyst
-1. AthenaeumZephyr
-1. AthenaeumPhoenix
-1. AthenaeumCascade
-1. AthenaeumNebula
-1. AthenaeumPulse
-
-These suffixes add a unique and somewhat mysterious touch to your organization name while still differentiating it effectively. Choose one that resonates with the theme and atmosphere you want to create for your GitHub organization.
-
-<div class="me"></div>
-
-→ atheneum-brew
-
-<div class="chatGPT"></div>
-
-← "atheneum-brew" is an interesting and creative choice! It adds a unique flair to your organization name, evoking imagery of innovation and creation, akin to the craft of brewing. It's distinctive and memorable, making it a great option for your GitHub organization. If "atheneum-brew" aligns with your vision for your programming course and organization, go ahead and use it!
-
-<div class="me"></div>
-
-→ what does brew means ? I thought of miles davis 'bitches brew'.
-
-<div class="chatGPT"></div>
-
-← "Brew" can indeed have multiple meanings depending on the context. In the case of "Bitches Brew" by Miles Davis, it refers to a specific album title and the concept of brewing something, often associated with the creation of music or art.
-
-In a broader sense, "brew" can mean to make or prepare something, especially by combining various elements or ingredients. It's often used metaphorically to describe the process of creating something, whether it's music, art, ideas, or even code.
-
-So, if you choose "atheneum-brew" for your organization name, it could suggest a space where ideas, knowledge, and creativity are combined and brewed together to produce something innovative and meaningful, similar to how Miles Davis combined different musical elements in "Bitches Brew" to create a groundbreaking album.
-
-![Miles Davis's Bitches Brew](./images/MilesDavisBitchesBrew.jpg)
+The Integration of ChatGPT as a Learning Tool module introduces students to the innovative use of conversational AI technology to enhance learning experiences in programming courses. Students will explore the integration of ChatGPT, an AI-powered chatbot developed by OpenAI, as a supplementary learning tool alongside traditional instruction methods. The module demonstrates how ChatGPT can provide personalized assistance, answer questions, provide explanations, and offer guidance on programming concepts and problem-solving strategies. Students will learn how to interact with ChatGPT through natural language conversation, allowing them to seek clarification, receive feedback, and deepen their understanding of course material in a conversational manner. Through interactive demonstrations and hands-on activities, students will gain practical experience in leveraging ChatGPT as a valuable resource for learning and mastering Java programming concepts.
