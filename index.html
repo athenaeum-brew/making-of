@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+
+    <style>
+        html {
+            height: 100vh;
+        }
+
+        body {
+            height: 100vh;
+            padding-top: 1rem;
+            background-color: white !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .me,
+        .chatGPT {
+            margin-right: 1rem;
+            display: inline;
+            float: left;
+            position: relative;
+            width: 28px;
+            height: 28px;
+            color: white;
+            background-color: rgb(25, 195, 125);
+            border-radius: 2rem;
+        }
+
+        .me:before,
+        .chatGPT:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            border-radius: 2rem;
+        }
+
+        .chatGPT:before {
+            background-image: url('/images/ChatGPT.svg');
+        }
+
+        .me:before {
+            background-image: url('/images/petit_cropped_square.jpg');
+        }
+    </style>
+</head>
+
+<body id="body-id">
+    <div id="container-id" class="container">
+    </div>
+
+    <script type="module">
+        import showdown from 'https://cdn.jsdelivr.net/npm/showdown@2.1.0/+esm'
+
+        const safeById = (id, func) => {
+            if (!id) return
+            const elem = document.getElementById(id)
+            if (!elem) return
+            return func(elem)
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const container = document.getElementById('container-id')
+
+            let filename = "README.md"
+
+            if (location.search && location.search.substring(1)) {
+                filename = location.search.substring(1)
+            }
+
+            filename += "?_=" + Date.now()
+
+            function displayResult(text) {
+                const converter = new showdown.Converter({ tables: true, strikethrough: true })
+                const html = converter.makeHtml(text)
+
+                container.innerHTML = html;
+
+                const h1 = container.querySelector("h1")
+                if (h1) {
+                    const titleElement = document.createElement("title")
+                    titleElement.textContent = h1.textContent
+                    document.head.prepend(titleElement)
+                }
+
+                container.querySelectorAll('table').forEach(table => {
+                    table.classList.add('table', 'table-light', 'table-sm', 'table-borderless');
+                });
+
+                const images = container.querySelectorAll("img")
+                images.forEach(function (img) {
+                    img.classList.add("img-fluid")
+                })
+
+            }
+
+            const xhr = new XMLHttpRequest()
+            xhr.open("GET", filename, true)
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        displayResult(xhr.responseText)
+                    } else {
+                        container.innerHTML += '<div class="alert alert-warning mt-2"><span class="italic">' + location.search.substring(1) + '</span> not found � </div>'
+                    }
+                }
+            }
+
+            xhr.send()
+
+        })
+    </script>
+
+</body>
