@@ -123,7 +123,7 @@ Choose one that best fits your organization and the theme of your advanced progr
 
 <div class="me"></div>
 
-→ ok, do you have a more creative suffix than 2, but not with a clear neaming, please.
+→ ok, do you have a more creative suffix than 2, but not with a clear meaning, please.
 
 <div class="chatGPT"></div>
 
