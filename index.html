@@ -95,6 +95,13 @@
                     const titleElement = document.createElement("title")
                     titleElement.textContent = h1.textContent
                     document.head.prepend(titleElement)
+                } else {
+                    const h2 = container.querySelector("h2")
+                    if (h2) {
+                        const titleElement = document.createElement("title")
+                        titleElement.textContent = h2.textContent
+                        document.head.prepend(titleElement)
+                    }
                 }
 
                 container.querySelectorAll('table').forEach(table => {
