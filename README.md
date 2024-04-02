@@ -9,7 +9,7 @@
 
 ## Main Topics:
 
-1. Java Programming Crash Course (Modules 1-5)
+1. Introduction to Java Programming (Modules 1-5)
 1. Basic UI (Modules 6-10)
 1. Java Streams (Modules 11-12)
 1. Java Generics (Modules 13-14)
@@ -23,9 +23,11 @@
 
 ## Details
 
-#### Java Programming Crash Course
+#### Introduction to Java Programming
 
-The Java Programming Crash Course provides a comprehensive introduction to the fundamental concepts of Java programming. It covers a wide range of topics, including Java syntax, data types, control structures, methods, and classes. Students will gain a solid understanding of the core building blocks of the Java language, enabling them to write simple to moderately complex programs. Additionally, the course delves into object-oriented programming (OOP) concepts such as inheritance, polymorphism, and encapsulation. Students will learn how to design and implement classes, utilize inheritance to create hierarchical relationships between classes, and leverage polymorphism for flexible and extensible code. Furthermore, the course explores exception handling techniques to manage errors and file input/output operations for reading from and writing to files. By the end of the course, students will have a strong foundation in Java programming, equipped with the skills necessary to tackle more advanced topics in Java development.
+This first module provides a comprehensive introduction to the fundamental concepts of Java programming. It covers a wide range of topics, including Java syntax, data types, control structures, methods, and classes. Students will gain a solid understanding of the core building blocks of the Java language, enabling them to write simple to moderately complex programs. Additionally, the course delves into object-oriented programming (OOP) concepts such as inheritance, polymorphism, and encapsulation. Students will learn how to design and implement classes, utilize inheritance to create hierarchical relationships between classes, and leverage polymorphism for flexible and extensible code. Furthermore, the course explores exception handling techniques to manage errors and file input/output operations for reading from and writing to files. By the end of the course, students will have a strong foundation in Java programming, equipped with the skills necessary to tackle more advanced topics in Java development.
+
+[More...](/?modules/01-05.md)
 
 #### Basic UI
 
