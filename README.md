@@ -21,6 +21,11 @@
 1. Class Libraries and External Libraries
 1. Integration of ChatGPT as a Learning Tool
 
+## Topics that will **not** be covered:
+
+1. Testing
+1. Security
+
 ## Details
 
 #### Introduction to Java Programming
@@ -56,3 +61,11 @@ The Class Libraries and External Libraries module explores the utilization of pr
 #### Integration of ChatGPT as a Learning Tool
 
 The Integration of ChatGPT as a Learning Tool module introduces students to the innovative use of conversational AI technology to enhance learning experiences in programming courses. Students will explore the integration of ChatGPT, an AI-powered chatbot developed by OpenAI, as a supplementary learning tool alongside traditional instruction methods. The module demonstrates how ChatGPT can provide personalized assistance, answer questions, provide explanations, and offer guidance on programming concepts and problem-solving strategies. Students will learn how to interact with ChatGPT through natural language conversation, allowing them to seek clarification, receive feedback, and deepen their understanding of course material in a conversational manner. Through interactive demonstrations and hands-on activities, students will gain practical experience in leveraging ChatGPT as a valuable resource for learning and mastering Java programming concepts.
+
+#### Testing and Security
+
+While our curriculum encompasses a wide range of topics essential for building robust and efficient Java applications, it's important to note that due to time constraints, we will not cover two critical areas: testing and security.
+
+Testing plays a pivotal role in software development by ensuring the reliability, stability, and correctness of code. While we acknowledge its significance, dedicating sufficient time to thoroughly explore testing methodologies, frameworks, and best practices would extend beyond the scope of this course. We encourage students to pursue further learning on testing techniques, including unit testing, integration testing, and test-driven development, to enhance their proficiency in software quality assurance.
+
+Similarly, security is paramount in modern software development, particularly in the context of handling sensitive data and protecting against cyber threats. Understanding security principles, vulnerabilities, and mitigation strategies is crucial for developing secure Java applications. However, delving deeply into this complex and evolving field requires dedicated time and expertise beyond the constraints of this course. We encourage students to seek supplementary resources and specialized training to strengthen their knowledge of software security and secure coding practices.
