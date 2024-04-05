@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PartyGuestList",
+            "request": "launch",
+            "mainClass": "PartyGuestList",
+            "projectName": "making-of_a1356a95"
+        },
+        {
+            "type": "java",
+            "name": "VoidClass",
+            "request": "launch",
+            "mainClass": "VoidClass",
+            "projectName": "making-of_a1356a95"
+        },
+        {
+            "type": "java",
+            "name": "NotSoVoidClass",
+            "request": "launch",
+            "mainClass": "NotSoVoidClass",
+            "projectName": "making-of_a1356a95"
+        },
+        {
+            "type": "java",
             "name": "SimpleInterface",
             "request": "launch",
             "mainClass": "SimpleInterface",
