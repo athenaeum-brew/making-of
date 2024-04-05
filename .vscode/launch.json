@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileReaderExample",
+            "request": "launch",
+            "mainClass": "FileReaderExample",
+            "projectName": "making-of_a1356a95"
+        },
+        {
+            "type": "java",
             "name": "PartyGuestList",
             "request": "launch",
             "mainClass": "PartyGuestList",
