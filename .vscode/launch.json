@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileReaderExampleWithNIO",
+            "request": "launch",
+            "mainClass": "FileReaderExampleWithNIO",
+            "projectName": "making-of_a1356a95"
+        },
+        {
+            "type": "java",
             "name": "FileReaderExample",
             "request": "launch",
             "mainClass": "FileReaderExample",
