@@ -76,6 +76,8 @@ The Class Libraries and External Libraries module explores the utilization of pr
 
 The Integration of ChatGPT as a Learning Tool module introduces students to the innovative use of conversational AI technology to enhance learning experiences in programming courses. Students will explore the integration of ChatGPT, an AI-powered chatbot developed by OpenAI, as a supplementary learning tool alongside traditional instruction methods. The module demonstrates how ChatGPT can provide personalized assistance, answer questions, provide explanations, and offer guidance on programming concepts and problem-solving strategies. Students will learn how to interact with ChatGPT through natural language conversation, allowing them to seek clarification, receive feedback, and deepen their understanding of course material in a conversational manner. 
 
+cf. [Conversations](/?/conversations/INDEX.md)
+
 #### Testing and Security
 
 While our curriculum encompasses a wide range of topics essential for building robust and efficient Java applications, it's important to note that due to time constraints, we will not cover two critical areas: testing and security.
