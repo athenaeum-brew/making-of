@@ -57,6 +57,14 @@
         .me:before {
             background-image: url('/images/petit_cropped_square.jpg');
         }
+
+        .frise {
+            max-width: 80px !important;
+            margin-left: 50%;
+            margin-right: 50%;
+            transform: translate(-50%, 0);
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 
@@ -83,8 +91,8 @@
 
             if (location.search && location.search.substring(1)) {
                 filename = location.search.substring(1)
-            } 
-            
+            }
+
             if (filename !== "README.md") {
                 document.getElementById("back").style.display = 'block'
             }
@@ -120,7 +128,7 @@
                     img.classList.add("img-fluid")
                 })
 
-                Prism.highlightAll() 
+                Prism.highlightAll()
 
             }
 

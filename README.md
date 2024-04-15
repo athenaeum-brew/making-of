@@ -1,11 +1,11 @@
-# Advanced Programming (Programmierung II)
+# Advanced Programming (Fortgeschrittene Programmierung)
 
 ## Course Overview
 
 * Programming Language: Java
 * Duration: 30 modules, each lasting 45 minutes
 * Format: ~ Half lectures, half hands-on exercises in laboratory
-* Topics Covered: 6 + 2 ongoing topics running through all modules
+* Topics Covered: 8 + 2 ongoing topics running through all modules
 
 ## Main Topics:
 
@@ -27,6 +27,8 @@
 
 1. Testing
 1. Security
+
+<img src="/images/29115.svg" alt="separator" class="frise">
 
 ## Details
 
@@ -68,6 +70,8 @@ The Advanced GUI module delves into the intricacies of developing advanced graph
 
 The Asynchronous Programming module delves into the principles and techniques of parallel and asynchronous programming in Java, enabling students to develop efficient and responsive software applications. The module begins by exploring parallel programming with threads, allowing students to harness the power of multi-threading for concurrent execution of tasks. Students will learn how to create and manage threads, synchronize access to shared resources, and coordinate thread activities to prevent race conditions and ensure thread safety. Building upon this foundation, the module delves into advanced synchronization and communication concepts, including locks, semaphores, and condition variables, for coordinating interactions between concurrent threads. Additionally, students will explore input and output operations via streams in asynchronous contexts, leveraging non-blocking IO techniques to achieve high throughput and responsiveness in IO-bound applications. 
 
+<img src="/images/29115.svg" alt="separator" class="frise">
+
 #### Class Libraries and External Libraries
 
 The Class Libraries and External Libraries module explores the utilization of pre-existing libraries to enhance Java applications. Students will learn how to leverage class libraries, which are collections of reusable classes and methods, to expedite development and add functionality to their programs. The module covers common Java class libraries, such as the Java Standard Library (java.lang, java.util, etc.), as well as third-party libraries available through repositories like Maven. Students will understand the importance of selecting appropriate libraries based on project requirements and learn best practices for integrating them into their codebase. Additionally, the module addresses concepts like dependency management, version control, and documentation retrieval for external libraries. 
@@ -78,10 +82,14 @@ The Integration of ChatGPT as a Learning Tool module introduces students to the 
 
 cf. [Conversations](/?/conversations/INDEX.md)
 
-#### Testing and Security
+<img src="/images/29115.svg" alt="separator" class="frise">
+
+#### ~~Testing and Security~~
 
 While our curriculum encompasses a wide range of topics essential for building robust and efficient Java applications, it's important to note that due to time constraints, we will not cover two critical areas: testing and security.
 
 Testing plays a pivotal role in software development by ensuring the reliability, stability, and correctness of code. While we acknowledge its significance, dedicating sufficient time to thoroughly explore testing methodologies, frameworks, and best practices would extend beyond the scope of this course. We encourage students to pursue further learning on testing techniques, including unit testing, integration testing, and test-driven development, to enhance their proficiency in software quality assurance.
 
 Similarly, security is paramount in modern software development, particularly in the context of handling sensitive data and protecting against cyber threats. Understanding security principles, vulnerabilities, and mitigation strategies is crucial for developing secure Java applications. However, delving deeply into this complex and evolving field requires dedicated time and expertise beyond the constraints of this course. We encourage students to seek supplementary resources and specialized training to strengthen their knowledge of software security and secure coding practices.
+
+<img src="/images/1131829.svg" alt="separator" class="frise">
