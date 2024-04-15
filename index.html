@@ -65,6 +65,21 @@
             transform: translate(-50%, 0);
             margin-bottom: 1rem;
         }
+
+        warning {
+            font-size: smaller;
+            font-style: italic;
+        }
+
+        warning::before {
+            content: "";
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin: 0 4px;
+            background-image: url("/images/warning-svgrepo-com.svg");
+            background-size: contain;
+        }
     </style>
 </head>
 
