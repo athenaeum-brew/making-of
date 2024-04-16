@@ -39,9 +39,11 @@
 
 </head>
 
-<body>
+<body id="mermaidrized">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.0/dist/mermaid.min.js"></script>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-    <script>
+    <script type="module">
+
         let filename = "01.md"
 
         if (location.search && location.search.substring(1)) {
@@ -50,16 +52,74 @@
 
         filename += "?_=" + Date.now()
 
-        var slideshow = remark.create({
-            sourceUrl: filename,
-            incremental: true,
-            created: function () {
-                // This function will be called when the slideshow has been created
-                console.log("Slideshow has been instantiated.");
-                // You can perform any other actions here
-            }
+        fileExists(filename)
+            .then(exists => {
+                var slideshow = remark.create({
+                    sourceUrl: filename,
+                    ratio: '4:3',
+                    incremental: true,
+                    navigation: {
+                        scroll: false,
+                        touch: true,
+                        click: false
+                    },
+                    created: e => {
+                        // This function will be called when the slideshow has been created
+                        console.log("Slideshow has been instantiated.".e);
+                        // You can perform any other actions here
+                    }
+                });
+            })
+            .catch(error => {
+                document.getElementById("mermaidrized").innerHTML =
+                    `<main class="container">
+                        <div class="alert alert-warning m-3" role="alert">
+                            ${error}
+                        </div>
+                    </main>`
+            });
+
+        mermaid.initialize({ startOnLoad: false });
+
+        // Select the target element
+        const target = document.getElementById("mermaidrized");
+
+        // Create a new Mutation Observer
+        const observer = new MutationObserver(function (mutations) {
+            mutations.forEach(async (mutation) => {
+                if (mutation.type === 'childList' && mutation.target === target) {
+                    console.log('Inner HTML of target element changed');
+                    await mermaid.run({ querySelector: '.mermaid' });
+                }
+            });
         });
+
+        // Configure the observer to watch for changes to the inner HTML of the target element
+        const config = { childList: true, subtree: true };
+
+        // Start observing the target element
+        observer.observe(target, config);
+        // Function to check if a file exists and is reachable
+        function fileExists(filename) {
+            return new Promise((resolve, reject) => {
+                fetch(filename, {
+                    method: 'HEAD' // Use HEAD request to check only headers, not downloading content
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            resolve(true); // File exists
+                        } else {
+                            reject(new Error(`File ${filename} does not exist or is not reachable.`)); // File does not exist
+                        }
+                    })
+                    .catch(error => {
+                        reject(error); // Error occurred during request
+                    });
+            });
+        }
+
     </script>
+
 </body>
 
 </html>
