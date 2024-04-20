@@ -7,23 +7,13 @@ In pom.xml, add the following xml snippet to javafx-maven-plugin ```<executions>
 ```xml
 <execution>
     <!-- Configuration for manual attach debugging -->
-    <!-- Usage: mvn clean javafx:run@debug -->
-    <id>debug</id>
+    <!-- Usage: mvn clean javafx:run@my-debug-id -->
+    <id>my-debug-id</id>
     <configuration>
         <options>
             <option>-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=localhost:8000</option>
         </options>
         <mainClass>com.example.App</mainClass>
-    </configuration>
-</execution>
-<execution>
-    <!-- Configuration for automatic IDE debugging -->
-    <id>ide-debug</id>
-    <configuration>
-        <options>
-            <option>-agentlib:jdwp=transport=dt_socket,server=n,address=${jpda.address}</option>
-        </options>
-        <mainClass>com.cthiebaud.javafx.App</mainClass>
     </configuration>
 </execution>
 ```
@@ -36,19 +26,6 @@ Create a file named "launch.json" in the folder ".vscode" with the following con
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "com.cthiebaud.javafx/com.cthiebaud.javafx.App",
-            "projectName": "demo"
-        },
-        {
-            "type": "java",
             "name": "Debug (Attach)",
             "request": "attach",
             "hostName": "localhost",
@@ -58,7 +35,10 @@ Create a file named "launch.json" in the folder ".vscode" with the following con
 }
 ```
 
-Open a terminal, type ```mvnDebug javafx:run@Debug```
-Run "Debug (Attach)" from "Run and Debug" (⇧⌘D)
+Open a terminal, type ```mvn javafx:run@my-debug-id```
+
+In Visual Studio, run "Debug (Attach)" from "Run and Debug" (⇧⌘D)
+
+Full Sample at https://github.com/athenaeum-brew/javafx-examples/tree/main/javafx-example-4-stayonthescene
 
 <img src="/images/29115.svg" alt="separator" class="frise">
