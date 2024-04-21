@@ -43,3 +43,29 @@ classDiagram
     }
 </pre>
 
+
+
+---
+
+# JavaFX WebView
+
+### Handling Loading Errors
+
+```java
+webView.getEngine().getLoadWorker().stateProperty().addListener((observable, oldValue, newValue) -> {
+    if (newValue == Worker.State.FAILED) {
+        // Handle loading error
+        System.out.println("Failed to load page: " + webView.getEngine().getLocation());
+    }
+});
+```
+
+--- 
+
+# JavaFX WebView
+
+### Advanced: Bridging Between Java and HTML+JavaScript
+
+
+--- 
+
