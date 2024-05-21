@@ -22,12 +22,11 @@ public class ParallelVsSequentialSum {
         }
         long endTime = System.currentTimeMillis();
         long sequentialTime = endTime - startTime;
-        System.out.println("\n-\nSequential sum: " + sequentialSum);
+        System.out.println("\n->\nSequential sum: " + sequentialSum);
         System.out.println("Sequential execution time: " + sequentialTime + " ms");
 
         // Parallel sum computation
-        System.out.println("\n-\nThread pool size: " + forkJoinPool.getPoolSize());
-
+        System.out.println("\n-> (Thread pool size: " + forkJoinPool.getParallelism() + ")");
         startTime = System.currentTimeMillis();
         long parallelSum = forkJoinPool.invoke(new SumTask(array, 0, array.length));
         endTime = System.currentTimeMillis();
@@ -37,11 +36,22 @@ public class ParallelVsSequentialSum {
 
         // Compare execution times
         double speedup = (double) sequentialTime / parallelTime;
-        System.out.println("Speedup factor: " + speedup);
+        String speedupString = String.format("Speedup factor: %.2f", speedup); // two decimals speedup factor
+
+        // ANSI escape codes for colors
+        String redColor = "\u001B[31m";
+        String greenColor = "\u001B[32m";
+        String resetColor = "\u001B[0m";
+
+        // Determine color based on speedup factor
+        String colorCode = (speedup < 1) ? redColor : (speedup > 1) ? greenColor : "";
+
+        // Print speedup factor with color
+        System.out.println("\n" + colorCode + speedupString + resetColor + "\n");
     }
 
     static class SumTask extends RecursiveTask<Long> {
-        private static final int SEQUENTIAL_THRESHOLD = 1000;
+        private static final int SEQUENTIAL_THRESHOLD = 10_000;
         private int[] array;
         private int start;
         private int end;
