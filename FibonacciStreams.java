@@ -5,15 +5,16 @@ import java.util.stream.Stream;
 public class FibonacciStreams {
     public static void main(String[] args) {
 
-        streamFibonacci().limit(12).forEach(System.out::println);
+        System.out.println(BigInteger.ZERO);
+        streamFibonacci().limit(11).forEach(System.out::println);
 
-        int qwe = 113; // Change this to get a different Fibonacci number
+        int nthFibonacciNumber = 120; // Change this to get a different Fibonacci number
         BigInteger fibonacciNumber = streamFibonacci()
-                .limit(qwe)
+                .limit(nthFibonacciNumber)
                 .reduce((prev, current) -> current)
                 .orElse(BigInteger.ZERO);
 
-        System.out.println("The " + qwe + "th Fibonacci number is: " + fibonacciNumber);
+        System.out.println("The " + nthFibonacciNumber + "th Fibonacci number is: " + fibonacciNumber);
     }
 
     static Stream<BigInteger> streamFibonacci() {

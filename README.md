@@ -62,13 +62,16 @@ The Basic GUI module introduces students to the fundamental concepts of graphica
 
 [More...](/?modules/11-14.md)
 
+#### Asynchronous Programming
+
+The Asynchronous Programming module delves into the principles and techniques of parallel and asynchronous programming in Java, enabling students to develop efficient and responsive software applications. The module begins by exploring parallel programming with threads, allowing students to harness the power of multi-threading for concurrent execution of tasks. Students will learn how to create and manage threads, synchronize access to shared resources, and coordinate thread activities to prevent race conditions and ensure thread safety. Building upon this foundation, the module delves into advanced synchronization and communication concepts, including locks, semaphores, and condition variables, for coordinating interactions between concurrent threads. Additionally, students will explore input and output operations via streams in asynchronous contexts, leveraging non-blocking IO techniques to achieve high throughput and responsiveness in IO-bound applications. 
+
+[More...](/?modules/15-18.md)
+
 #### Advanced Graphical User Interface
 
 The Advanced GUI module delves into the intricacies of developing advanced graphical user interfaces in Java, focusing on web-based applications and responsive design. The module begins by exploring Java as a web server, utilizing technologies such as Apache Tomcat to deploy Java web applications. Students will learn about server-side programming techniques, including handling HTTP requests and responses, managing sessions, and implementing security measures. The module also covers JavaServer Pages (JSPs) as a dynamic web content generation technology, enabling students to create dynamic and interactive web pages that seamlessly integrate Java code. Building upon this foundation, the module introduces the Model-View-Controller (MVC) architectural pattern for organizing and structuring web applications, promoting code maintainability and scalability. Additionally, students will explore Java as a REST server, implementing RESTful APIs to facilitate communication between client and server applications. The module culminates in a discussion of non-blocking IO and vert.x, introducing students to asynchronous event-driven programming paradigms for building highly scalable and responsive web applications. 
 
-#### Asynchronous Programming
-
-The Asynchronous Programming module delves into the principles and techniques of parallel and asynchronous programming in Java, enabling students to develop efficient and responsive software applications. The module begins by exploring parallel programming with threads, allowing students to harness the power of multi-threading for concurrent execution of tasks. Students will learn how to create and manage threads, synchronize access to shared resources, and coordinate thread activities to prevent race conditions and ensure thread safety. Building upon this foundation, the module delves into advanced synchronization and communication concepts, including locks, semaphores, and condition variables, for coordinating interactions between concurrent threads. Additionally, students will explore input and output operations via streams in asynchronous contexts, leveraging non-blocking IO techniques to achieve high throughput and responsiveness in IO-bound applications. 
 
 <img src="/images/29115.svg" alt="separator" class="frise">
 
