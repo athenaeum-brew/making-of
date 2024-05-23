@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interprocess Communication Devices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        li::before {
+            content: "• ";
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interprocess Communication Devices</h1>
+    <ul>
+        <li><strong>Pipes and Named Pipes (FIFOs)</strong>
+            <ul>
+                <li><strong>Pipes:</strong> Allow one-way communication between processes. They are commonly used for communication between a parent process and its child process.</li>
+                <li><strong>Named Pipes (FIFOs):</strong> Similar to pipes but with a name in the filesystem, allowing unrelated processes to communicate.</li>
+            </ul>
+        </li>
+        <li><strong>Shared Memory:</strong> Allows multiple processes to access the same memory space, enabling high-speed data exchange. Synchronization mechanisms like semaphores or mutexes are often required to manage access to shared memory.</li>
+        <li><strong>Message Queues:</strong> Provides a way for processes to exchange messages in a controlled, asynchronous manner. Messages are stored in a queue and can be read in a first-in, first-out (FIFO) order.</li>
+        <li><strong>Semaphores:</strong> Used for controlling access to shared resources by multiple processes. Semaphores are typically used to signal the availability or unavailability of resources.</li>
+        <li><strong>Signals:</strong> Used to notify a process that a particular event has occurred. Signals can be used for interprocess communication, but they are more commonly used for handling asynchronous events.</li>
+        <li><strong>Files:</strong> Processes can communicate by reading from and writing to shared files. This method is simple but not as efficient as other IPC mechanisms.</li>
+        <li><strong>Memory-Mapped Files:</strong> Allows files or devices to be mapped into memory, enabling processes to perform I/O operations directly on memory, which can be faster than using traditional read/write operations.</li>
+        <li><strong>Remote Procedure Calls (RPC):</strong> Allows a program to cause a procedure to execute in another address space (commonly on another physical machine) as if it were a local procedure call.</li>
+        <li><strong>D-Bus:</strong> A message bus system that provides a simple way for interprocess communication. It is widely used in Linux environments for communication between system services and applications.</li>
+        <li><strong>CORBA (Common Object Request Broker Architecture):</strong> A standard defined by the Object Management Group (OMG) designed to facilitate communication between various applications, regardless of the languages they are written in or the platforms they are running on.</li>
+        <li><strong>Thrift:</strong> A software framework for scalable cross-language services development, developed by Facebook. It combines a software stack with a code generation engine to build services that work efficiently and seamlessly between languages.</li>
+        <li><strong>HTTP/REST APIs:</strong> Processes can communicate over HTTP using RESTful web services. This method is commonly used for communication between distributed systems and microservices.</li>
+    </ul>
+</body>
+</html>
+
