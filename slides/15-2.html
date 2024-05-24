@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synchronization Primitives</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Synchronization Primitives</h1>
+        <p>A "synchronization primitive" is a low-level programming construct or mechanism used to coordinate the execution of multiple threads or processes in a concurrent system.
+            These primitives are fundamental tools for ensuring that concurrent operations occur in a controlled and orderly manner, preventing race conditions, data corruption,
+            and other concurrency-related issues.</p>
+
+        <h2>Common Synchronization Primitives:</h2>
+        <ol>
+            <li><strong>Mutexes (Mutual Exclusion)</strong>: Mutexes allow only one thread at a time to access a shared resource, ensuring that only one thread can execute a
+                critical section of code while others are blocked. This prevents concurrent access to shared resources, avoiding conflicts.</li>
+            <li><strong>Semaphores</strong>: Semaphores are integer variables used for signaling between processes or threads. They can be used to control access to a pool of
+                resources, limiting the number of threads that can access them simultaneously.</li>
+            <li><strong>Monitors</strong>: Monitors are high-level synchronization constructs that encapsulate shared data and the operations that can be performed on it. They
+                provide mutual exclusion and condition synchronization mechanisms, making it easier to write concurrent programs by abstracting away low-level details.</li>
+            <li><strong>Condition Variables</strong>: Condition variables are synchronization primitives used to coordinate threads based on specific conditions. Threads can wait
+                for a condition to become true before proceeding with their execution.</li>
+            <li><strong>Barriers</strong>: Barriers synchronize a group of threads, forcing them to wait until all threads in the group have reached a certain point in the program
+                before allowing any of them to proceed further.</li>
+            <li><strong>Atomic Operations</strong>: Atomic operations ensure that certain operations on shared data are executed atomically, without interruption, thereby avoiding
+                race conditions. Examples include compare-and-swap (CAS) and fetch-and-add (FAA) operations.</li>
+        </ol>
+
+        <p>Synchronization primitives are essential for building concurrent systems that are correct, efficient, and free from race conditions and deadlocks. However, they require
+            careful use to avoid pitfalls such as deadlock, livelock, and performance bottlenecks.</p>
+    </main>
+</body>
+
+</html>
