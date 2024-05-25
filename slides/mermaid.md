@@ -13,14 +13,14 @@ sequenceDiagram
     participant WebSocketList
     participant Client2 as New Client
 
-    Client ->>+JSP: HTTP GET
+    Client->>+JSP: HTTP GET
     JSP-->>+SessionListener: HTTP Session created
     SessionListener->> ServletContext: increment HTTP Session Counter
     SessionListener->> WebSocketList: notify
     Note over WebSocketList,WebSocketList: nothing to broadcast to
     JSP->>+ServletContext: query HTTP Session Counter
     ServletContext-->>-JSP: retun HTTP Session Counter
-    JSP-->>-Client: HTML
+    JSP-->>-Client: HTML/Javascript
     Client ->>+WebSocket: open
     WebSocket -->> WebSocketList: register
     WebSocket-->>Client: opened
