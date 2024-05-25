@@ -1,0 +1,22 @@
+<%@ is a directive tag in JavaServer Pages (JSP). It's used to specify directives that control various aspects of the JSP page translation and execution. There are several types of directives in JSP, and <%@ is the opening tag for all of them.
+
+Here are the main types of directives in JSP:
+
+Page Directive: <%@ page %>
+
+Defines attributes that apply to the entire JSP page, such as error handling, session management, and content type.
+Example: <%@ page language="java" contentType="text/html; charset=UTF-8" %>
+Include Directive: <%@ include %>
+
+Includes the contents of another file (usually another JSP or HTML file) into the current JSP page during translation.
+Example: <%@ include file="header.jsp" %>
+Taglib Directive: <%@ taglib %>
+
+Declares a custom tag library for use in the JSP page.
+Example: <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+Directive Declarations: <%@%! %>
+
+Declares instance variables or methods that are available to the entire JSP page.
+Example: <%! int count = 0; %>
+These directive tags are processed by the JSP container during translation of the JSP page into a servlet. They allow developers to configure and control various aspects of JSP page execution and behavior.
+
