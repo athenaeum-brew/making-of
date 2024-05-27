@@ -4,6 +4,7 @@
 
 .center[Centered text]
 
+
 .right[Right-aligned text]
 
 .left-column[qwe]
