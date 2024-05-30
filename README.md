@@ -88,6 +88,8 @@ The "Questioneer" Web Application is designed both to test students on each modu
 
 ['Questioneer' dashboard](https://questioneer.cthiebaud.com/admin)
 
+['Questioneer' source code on github](https://github.com/athenaeum-brew/questioneer)
+
 <img src="/images/29115.svg" alt="separator" class="frise">
 
 #### Class Libraries and External Libraries
