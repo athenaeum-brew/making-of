@@ -4,7 +4,7 @@
 
 * Programming Language: Java
 * Duration: 30 modules, each lasting 45 minutes
-* Format: ~ Half lectures, half hands-on exercises in laboratory
+* Format: ~ Lectures, hands-on exercises, and [quizzes](https://questioneer.cthiebaud.com/)
 * Topics Covered: 8 + 2 ongoing topics running through all modules
 
 ## Main Topics:
@@ -72,8 +72,17 @@ The Asynchronous Programming module delves into the principles and techniques of
 
 The Advanced GUI module delves into the intricacies of developing advanced graphical user interfaces in Java, focusing on web-based applications and responsive design. The module begins by exploring Java as a web server, utilizing technologies such as Apache Tomcat to deploy Java web applications. Students will learn about server-side programming techniques, including handling HTTP requests and responses, managing sessions, and implementing security measures. The module also covers JavaServer Pages (JSPs) as a dynamic web content generation technology, enabling students to create dynamic and interactive web pages that seamlessly integrate Java code. Building upon this foundation, the module introduces the Model-View-Controller (MVC) architectural pattern for organizing and structuring web applications, promoting code maintainability and scalability. Additionally, students will explore Java as a REST server, implementing RESTful APIs to facilitate communication between client and server applications. The module culminates in a discussion of non-blocking IO and vert.x, introducing students to asynchronous event-driven programming paradigms for building highly scalable and responsive web applications. 
 
-
 [More...](/?modules/23-30.md)
+
+<img src="/images/29115.svg" alt="separator" class="frise">
+
+#### Quizzes
+
+The "Questioneer" Web Application is designed both to test students on each module's content and to demonstrate Servlet techniques as part of [a dedicated module](/slides/?24.md).
+
+['Questioneer' index of all quizzes](https://questioneer.cthiebaud.com)
+
+['Questioneer' dashboard](https://questioneer.cthiebaud.com/admin)
 
 <img src="/images/29115.svg" alt="separator" class="frise">
 
