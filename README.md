@@ -28,6 +28,10 @@
 1. Testing
 1. Security
 
+## Author
+
+[Christophe Thiebaud](/mail.html)
+
 <img src="/images/29115.svg" alt="separator" class="frise">
 
 ## Details
