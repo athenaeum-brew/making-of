@@ -112,4 +112,10 @@ Testing plays a pivotal role in software development by ensuring the reliability
 
 Similarly, security is paramount in modern software development, particularly in the context of handling sensitive data and protecting against cyber threats. Understanding security principles, vulnerabilities, and mitigation strategies is crucial for developing secure Java applications. However, delving deeply into this complex and evolving field requires dedicated time and expertise beyond the constraints of this course. We encourage students to seek supplementary resources and specialized training to strengthen their knowledge of software security and secure coding practices.
 
+<img src="/images/29115.svg" alt="separator" class="frise">
+
+The source code for this website, along with various code samples used throughout the course, can be found on [Github](https://github.com/athenaeum-brew).
+
+[Complete listing of the Java code examples](https://questioneer.cthiebaud.com/examples.jsp)
+
 <img src="/images/1131829.svg" alt="separator" class="frise">
