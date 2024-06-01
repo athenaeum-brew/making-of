@@ -116,8 +116,6 @@ Similarly, security is paramount in modern software development, particularly in
 
 #### Sources
 
-The source code for this website, along with various code and project samples used throughout the course, can be found on [Github](https://github.com/athenaeum-brew).
-
-[Complete listing of the code and project samples](https://questioneer.cthiebaud.com/examples.jsp)
+The [source code for this website](https://github.com/athenaeum-brew/making-of), along with [various code and project samples](https://questioneer.cthiebaud.com/examples.jsp) used throughout the course, can be found in the dedicated [athenaeum-brew Github organization](https://github.com/athenaeum-brew).
 
 <img src="/images/1131829.svg" alt="separator" class="frise">
