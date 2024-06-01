@@ -28,6 +28,14 @@
 1. Testing
 1. Security
 
+## Multiple Choice Tests
+
+There is a [set of multiple choice tests](https://questioneer.cthiebaud.com), each comprising from 10 to 15 questions, for every module covered in this course.
+
+## Sources
+
+The [source code for this website](https://github.com/athenaeum-brew/making-of), along with [various code and project samples](https://questioneer.cthiebaud.com/examples.jsp) used throughout the course, including the [application that hosts the multiple-choice tests](https://github.com/athenaeum-brew/questioneer), can be found in the dedicated [athenaeum-brew](https://github.com/athenaeum-brew) organization on Github.
+
 ## Author
 
 [Christophe Thiebaud](/mail.html)
@@ -77,24 +85,6 @@ The Asynchronous Programming module delves into the principles and techniques of
 The Advanced GUI module delves into the intricacies of developing advanced graphical user interfaces in Java, focusing on web-based applications and responsive design. The module begins by exploring Java as a web server, utilizing technologies such as Apache Tomcat to deploy Java web applications. Students will learn about server-side programming techniques, including handling HTTP requests and responses, managing sessions, and implementing security measures. The module also covers JavaServer Pages (JSPs) as a dynamic web content generation technology, enabling students to create dynamic and interactive web pages that seamlessly integrate Java code. Building upon this foundation, the module introduces the Model-View-Controller (MVC) architectural pattern for organizing and structuring web applications, promoting code maintainability and scalability. Additionally, students will explore Java as a REST server, implementing RESTful APIs to facilitate communication between client and server applications. The module culminates in a discussion of non-blocking IO and vert.x, introducing students to asynchronous event-driven programming paradigms for building highly scalable and responsive web applications. 
 
 [More...](/?modules/23-30.md)
-
-<img src="/images/29115.svg" alt="separator" class="frise">
-
-#### Quizzes
-
-The "Questioneer" Web Application is designed both to test students on each module's content and to demonstrate Servlet techniques as part of [a dedicated module](/slides/?24.md).
-
-['Questioneer' index of all quizzes](https://questioneer.cthiebaud.com)
-
-['Questioneer' dashboard](https://questioneer.cthiebaud.com/admin)
-
-['Questioneer' source code on github](https://github.com/athenaeum-brew/questioneer)
-
-<img src="/images/29115.svg" alt="separator" class="frise">
-
-#### Sources
-
-The [source code for this website](https://github.com/athenaeum-brew/making-of), along with [various code and project samples](https://questioneer.cthiebaud.com/examples.jsp) used throughout the course, can be found in the dedicated [athenaeum-brew Github organization](https://github.com/athenaeum-brew).
 
 <img src="/images/29115.svg" alt="separator" class="frise">
 
