@@ -92,6 +92,12 @@ The "Questioneer" Web Application is designed both to test students on each modu
 
 <img src="/images/29115.svg" alt="separator" class="frise">
 
+#### Sources
+
+The [source code for this website](https://github.com/athenaeum-brew/making-of), along with [various code and project samples](https://questioneer.cthiebaud.com/examples.jsp) used throughout the course, can be found in the dedicated [athenaeum-brew Github organization](https://github.com/athenaeum-brew).
+
+<img src="/images/29115.svg" alt="separator" class="frise">
+
 #### Class Libraries and External Libraries
 
 The Class Libraries and External Libraries module explores the utilization of pre-existing libraries to enhance Java applications. Students will learn how to leverage class libraries, which are collections of reusable classes and methods, to expedite development and add functionality to their programs. The module covers common Java class libraries, such as the Java Standard Library (java.lang, java.util, etc.), as well as third-party libraries available through repositories like [Maven](https://maven.apache.org/). Students will understand the importance of selecting appropriate libraries based on project requirements and learn best practices for integrating them into their codebase. Additionally, the module addresses concepts like dependency management, version control, and documentation retrieval for external libraries. 
@@ -111,11 +117,5 @@ While our curriculum encompasses a wide range of topics essential for building r
 Testing plays a pivotal role in software development by ensuring the reliability, stability, and correctness of code. While we acknowledge its significance, dedicating sufficient time to thoroughly explore testing methodologies, frameworks, and best practices would extend beyond the scope of this course. We encourage students to pursue further learning on testing techniques, including unit testing, integration testing, and test-driven development, to enhance their proficiency in software quality assurance.
 
 Similarly, security is paramount in modern software development, particularly in the context of handling sensitive data and protecting against cyber threats. Understanding security principles, vulnerabilities, and mitigation strategies is crucial for developing secure Java applications. However, delving deeply into this complex and evolving field requires dedicated time and expertise beyond the constraints of this course. We encourage students to seek supplementary resources and specialized training to strengthen their knowledge of software security and secure coding practices.
-
-<img src="/images/29115.svg" alt="separator" class="frise">
-
-#### Sources
-
-The [source code for this website](https://github.com/athenaeum-brew/making-of), along with [various code and project samples](https://questioneer.cthiebaud.com/examples.jsp) used throughout the course, can be found in the dedicated [athenaeum-brew Github organization](https://github.com/athenaeum-brew).
 
 <img src="/images/1131829.svg" alt="separator" class="frise">
