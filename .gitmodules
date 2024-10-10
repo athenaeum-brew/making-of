@@ -1,0 +1,3 @@
+[submodule "einfuehrung"]
+	path = einfuehrung
+	url = git@github.com:athenaeum-brew/einfuehrung.git
