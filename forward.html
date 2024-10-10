@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Content...</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        // Function to dynamically load and execute scripts
+        function executeScripts(element) {
+            const scripts = element.querySelectorAll('script');
+            scripts.forEach(script => {
+                const newScript = document.createElement('script');
+                if (script.src) {
+                    // If script has a src attribute, load it externally
+                    newScript.src = script.src;
+                } else {
+                    // If script is inline, copy and execute its content
+                    newScript.textContent = script.textContent;
+                }
+                document.body.appendChild(newScript); // Append to the body to execute
+            });
+        }
+
+        // Fetch and insert the content of truePage.html, and execute scripts
+        fetch('/slides/?../einfuehrung/README.md')
+            .then(response => response.text())
+            .then(data => {
+                const contentDiv = document.getElementById('content');
+                contentDiv.innerHTML = data;
+                executeScripts(contentDiv); // Execute any JavaScript in the loaded content
+            })
+            .catch(error => {
+                console.error('Error loading the page:', error);
+                document.getElementById('content').innerHTML = 'Failed to load content.';
+            });
+    </script>
+</body>
+</html>
