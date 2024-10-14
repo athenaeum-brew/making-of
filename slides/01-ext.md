@@ -67,7 +67,7 @@ public class LinkedListExample {
 
 ## Demo
 
-<small>Pick an exercice from [Module 02: Exercises](/?/exercises/02.md)</small>
+<small>Pick an exercice from [Module 02: Exercises](/index0.html?/exercises/02.md)</small>
 
 ---
 
