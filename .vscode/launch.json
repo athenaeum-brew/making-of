@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FruitList",
+            "request": "launch",
+            "mainClass": "FruitList",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "ParallelVsSequentialSum",
             "request": "launch",
             "mainClass": "ParallelVsSequentialSum",
