@@ -1,9 +1,10 @@
 import java.util.LinkedList;
 
 public class PartyGuestList {
+
     public static void main(String[] args) {
         // Declare a LinkedList to represent the guest list for the party
-        LinkedList guestList = new LinkedList();
+        LinkedList<String> guestList = new LinkedList<>();
 
         // Add names of Greek philosophers to the list
         guestList.add("Socrates");
@@ -21,6 +22,7 @@ public class PartyGuestList {
         String removedGuest = "Socrates";
         guestList.remove(removedGuest);
         System.out.println("\n" + removedGuest + " cannot make it to the party.");
+        System.out.println(guestList);
 
         // Check if a specific guest is present in the list using the contains method
         String searchGuest = "Aristotle";
