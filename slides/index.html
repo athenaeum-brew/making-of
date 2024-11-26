@@ -143,6 +143,44 @@
 
   </script>
 
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", () => {
+      // Wait for a short period to allow Markdown to render
+      setTimeout(() => {
+          // Select all elements with the "droite" class that contain video durations
+          const durations = Array.from(document.querySelectorAll("code.droite"))
+              .map(el => el.textContent.trim()) // Get the text content
+              .filter(time => /^\d+:\d+$/.test(time)); // Filter valid time strings (mm:ss)
+      
+          // Convert time strings to total seconds
+          const totalSeconds = durations.reduce((total, time) => {
+              const [minutes, seconds] = time.split(":").map(Number);
+              return total + minutes * 60 + seconds;
+          }, 0);
+      
+          // Convert total seconds to hours, minutes, and seconds
+          const hours = Math.floor(totalSeconds / 3600);
+          const minutes = Math.floor((totalSeconds % 3600) / 60);
+          const seconds = totalSeconds % 60;
+      
+          // Format the total duration
+          const formattedDuration = `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      
+          // Log the result or display it on the page
+          console.log(`Total Duration: ${formattedDuration}`);
+          // Update the text of the element with id 'total-duration'
+          const resultElement = document.getElementById("total-duration");
+          if (resultElement) {
+              resultElement.textContent = `${formattedDuration}`;
+          } else {
+              console.warn("Element with id 'total-duration' not found.");
+          }
+      }, 1000); // Adjust the delay (in milliseconds) as needed
+  });
+  
+  </script>
+  
+
 </body>
 
 </html>
