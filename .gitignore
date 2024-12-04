@@ -3,3 +3,5 @@ packages/
 .ssh/
 .env
 *.class
+
+exam.md
